@@ -4,7 +4,7 @@ date: 2021-02-15 16.40
 categories: [Tryhackme, Linux]
 tags: [ftp, suid, privesc]
 author: CEngover
-image: /assets/img/posts/anonymous.png
+image: /assets/img/posts/anonymous/anonymous.png
 ---
 
 Hello, in this article we're going to solve `Anonymous` which is linux based machine from [Tryhackme](https://tryhackme.com/). Let's describe solution steps first and then get into the solution.
