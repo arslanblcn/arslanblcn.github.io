@@ -1,6 +1,6 @@
 ---
 title: "Hackthebox Writeup Walkthrough"
-date: 2021-07.04 21.00 
+date: 2021-07-04 21.00 
 categories: [Hackthebox, Linux]
 tags: [abusing path variable,SQLi]
 author: CEngover
