@@ -1,7 +1,7 @@
 ---
 title: "Hackthebox Heist Walkthrough"
-date: 2021-07.03 15.00 
-categories: [Hackthebox, Linux]
+date: 2021-07-03 15.00 
+categories: [Hackthebox, Windows]
 tags: [procdump]
 author: CEngover
 image: /assets/img/posts/heist/heist.png
@@ -75,7 +75,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
 ```
 
-There are a lot file that we can check but once we login as guest user, we'll see a conversation between Hazard and Support Admin. Once we click attachment link we can see there are usernames and encoded passwords which are seem like belonging to Cisco Router config file. After cracking the passwords we'll get following decoded passwords.
+There is a lot file that we can check but once we login as guest user, we'll see a conversation between Hazard and Support Admin. Once we click attachment link we can see there are usernames and encoded passwords which are seem like belonging to Cisco Router config file. After cracking the passwords we'll get following decoded passwords.
 
 ```
 $1$pdQG$o8nrSzsGXeaduXrjlvKc91 -> stealth1agent
@@ -119,7 +119,7 @@ Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
 
 ```
 
-Now we can try passwords that we found before on these users. On smb I could not get access again. After a full port scanning we can see there is another port wh,ch is 5985.
+Now we can try passwords that we found before on these users. On smb I could not get access again. After a full port scanning we can see there is another port which is 5985.
 
 ```bash
 cengover@kali:~/htb/heist$ nmap -sV -p- heist.htb -oN nmap/heist-all-ports -v
@@ -146,7 +146,7 @@ We can try to get initial access with the usernames and passwords on this port v
 
 ![Getting Access](/assets/img/posts/heist/access.png)
 
-After some searching on the box I saw there is firefox.exe and there are running process that blong to firefox.
+After some searching on the box I saw there is firefox.exe and there are running processes that belong to firefox.
 
 ```bash
 [0;31m*Evil-WinRM*[0m[0;1;33m PS [0mC:\Users\Chase\Desktop> ps                                                                                                       
