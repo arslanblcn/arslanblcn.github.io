@@ -94,6 +94,7 @@ Let's see where run-parts command is located.
 jkr@writeup:~$ which run-parts
 /bin/run-parts
 ```
+## Privilege Escalation
 
 It's in `bin` folder so the folder is last folder in path search order which means if we can inject a custom run-parts command one of these path, our command can be triggered. Let's see what we can do. First of all, check these paths permissions.
 
