@@ -9,16 +9,27 @@ author: CEngover
 ### Event Details
 
 **EventID:** : 88
+
 **Event Time:** : April 4, 2021, 11:10 p.m.
-**Rule:** : SOC141 - Phishing URL Detected
-**Level:** : Security Analyst
-**Source Address** : 172.16.17.88
-**Source Hostname** : MarkPRD
+
+**Rule:**  SOC141 - Phishing URL Detected
+
+**Level:** Security Analyst
+
+**Source Address** 172.16.17.88
+
+**Source Hostname** MarkPRD
+
 **Destination Address** : 192.64.119.190
+
 **Destination Hostname** : nuangaybantiep.xyz
+
 **Username** : Mark
+
 **Request URL** : http://nuangaybantiep.xyz
+
 **User Agent** : Mozilla - Windows
+
 **Device Action** : Allowed
 
 Let's begin to investigate the case. 
