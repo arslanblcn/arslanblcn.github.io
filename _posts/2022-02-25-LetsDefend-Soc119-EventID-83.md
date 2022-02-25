@@ -60,7 +60,7 @@ Here are some notes about the event.
 **Parent Process MD5:** 8b88ebbb05a0e56b7dcc708498c02b3e
 ```
 
-We've one `GET` request to phishing URL. Request details are;
+We've one `GET` request to URL. Request details are;
 
 Date : Mar, 21, 2021, 01:02 PM
 Type : Proxy
